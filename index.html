@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Booking.com</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container-fluid position-relative" style="  height: 150px; ;">
+        <div class="row" style=" background-color: rgb(29, 32, 200); font-weight: 500; font-size: 250%; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Help</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contact Us</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Tel No.</a></li>
+                  <li><a class="dropdown-item" href="#">Email</a></li>
+                  <li><a class="dropdown-item" href="#">Offices</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </li>
+              </ul>
+        </div>
+        <form action="/submit-form" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+  <script src="./index.js"></script>  
+</body>
+</html>
