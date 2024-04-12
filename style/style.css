@@ -17,3 +17,14 @@
     height: 100%;
     margin-right: 10px;
 }
+
+.bookings{
+    padding: 20px;
+    background-color:rgb(43, 152, 255);
+}
+
+.checkin{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
