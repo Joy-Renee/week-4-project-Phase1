@@ -64,7 +64,7 @@
     max-width: 1200px; /* Limit maximum width */
     margin-left: 0px;
     padding: 20px;
-    background-color: #75dac5;
+    background-color: #f8f8f8;
     width: 500%;
   }
   
@@ -112,7 +112,7 @@
   /* Right side */
   .right {
     flex: 1; /* Take up remaining space */
-    overflow-x: auto;
+    overflow-x: ;
     
   }
   
