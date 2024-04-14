@@ -36,7 +36,7 @@ bookRooms()
 
 
 // const forTitles = function() {
-//     fetch('http://localhost:3000/rooms')
+//     fetch(link)
 //     .then(res => res.json())
 //     .then(data => {
 //         console.log(data);
