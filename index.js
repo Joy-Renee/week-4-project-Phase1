@@ -37,7 +37,7 @@ function bookRooms(){
                 roomBooking.innerHTML = `
                 <div class="roomDetails">
                     <div class="details">
-                        <div class='title'> ${room.} </div>
+                        <div class='title'> ${room.tit} </div>
                         <div class='capacity'> ${room.capacity} people </div>
                         <div class='description'> ${room.description} </div>
                         <div class='price'> ${room.price} $</div>
