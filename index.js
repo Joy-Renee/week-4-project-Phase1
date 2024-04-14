@@ -42,6 +42,9 @@ function bookRooms(){
                         <div class='description'> ${room.description} </div>
                         <div class='price'> ${room.price} $</div>
                     </div>
+                    <div>
+                    <button class= 'bookbtn'>Book Now</button>
+                    </div>
                 </div>
                 `
                 
