@@ -18,7 +18,7 @@ https://github.com/Joy-Renee/week-4-project-Phase
 
 
 
-Access the website at http://localhost:3000.
+Access the website at https://joy-renee.github.io/week-4-project-Phase1/.
 Contributing
 Contributions are welcome! Please feel free to submit bug reports, feature requests, or pull requests.
 
