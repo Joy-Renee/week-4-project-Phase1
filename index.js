@@ -30,7 +30,7 @@ function bookRooms(){
     .then(data => {
         // console.log(data);
         data.forEach(room => {
-            const button = document.getElementById(`${room.}`)  
+            const button = document.getElementById(`${room.id}`)  
             button.addEventListener('click', e =>{
                 let roomBooking = document.querySelector('#roomBooking')
                 
