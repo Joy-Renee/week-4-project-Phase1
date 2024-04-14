@@ -126,3 +126,20 @@
     background-color: #45a049;
   }
   
+  .picture {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    justify-content: center; /* Center the images horizontally */
+  }
+  
+  .picture > div {
+    flex: 0 0 calc(33.33% - 20px); /* Each image container takes about one-third of the width with some margin */
+    margin: 10px; /* Margin around each image container */
+    text-align: center; /* Center the images horizontally */
+  }
+  
+  .picture img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    border-radius: 8px; /* Rounded corners for images */
+  }
+  

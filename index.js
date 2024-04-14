@@ -9,7 +9,7 @@ const forTitles = function() {
             //console.log(room);
             const titleList = document.createElement('ul')
             titleList.innerHTML = `
-            <ul class ='btn' id='${room.id}' > ${room.picture}</ul> 
+            <ul class ='btn' id='${room.id}' > ${room.title}</ul> 
             `
             // ul-btn.style.backgroundColor = 'yellow'
             roomBooking.appendChild(titleList)
@@ -44,8 +44,7 @@ function bookRooms(){
                     </div>
                 </div>
                 `
-                let pic = document.getElementsByClassName('picture')
-                pic.src = `${room.picture}`
+                
             })         
 
         })
