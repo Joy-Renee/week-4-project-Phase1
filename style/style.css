@@ -24,7 +24,7 @@
 
 .bookings{
     padding: 20px;
-    background-color:rgb(43, 227, 255);
+    background-color:rgb(0, 16, 159);
 }
 
 .checkin{
@@ -112,7 +112,7 @@
   /* Right side */
   .right {
     flex: 1; /* Take up remaining space */
-    overflow-x: ;
+    overflow-x: auto ;
     
   }
   
@@ -122,3 +122,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
     margin-right: 20px;
 }
+  #color{
+    background-color: #45a049;
+  }
