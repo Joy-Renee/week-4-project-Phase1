@@ -1,6 +1,6 @@
 let roomBooking = document.querySelector('#roomBooking')
 
-let link = "http://localhost:3000/rooms"
+let link = "https://json-server-rooms.onrender.com/rooms"
 
 function bookRooms(){
     fetch(link)
