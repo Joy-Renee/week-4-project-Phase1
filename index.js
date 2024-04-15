@@ -21,7 +21,7 @@ function bookRooms(){
                         <div class='price'> ${room.price} $</div>
                     </div>
                     <div>
-                    <button class= 'bookbtn'>Book Now</button>
+                    <button class= 'bookbtn'>Book Now </button>
                     </div>
                 </div>
                 `
