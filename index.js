@@ -1,6 +1,6 @@
 let roomBooking = document.querySelector('#roomBooking')
 
-let link = 'http://localhost:3000/rooms'
+let link = "http://localhost:3000/rooms"
 
 function bookRooms(){
     fetch(link)
